@@ -3015,7 +3015,7 @@ async function sendMessage(customText) {
    // Call local Ollama API
 AppState.abortController = new AbortController();
 
-const response = await fetch('http://localhost:11434/api/chat', {
+const response = await fetch('https://signing-meyer-organisation-africa.trycloudflare.com/api/chat', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
